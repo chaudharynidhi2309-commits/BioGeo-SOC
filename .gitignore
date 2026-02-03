@@ -1,0 +1,41 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+dist/
+*.egg-info/
+
+# Virtual Environment
+venv/
+env/
+.venv
+
+# Environment Variables
+.env
+*.env
+
+# IDE
+.vscode/
+.idea/
+
+# --- CRITICAL: DO NOT IGNORE YOUR MODEL AND DATA ---
+# We ignore general data/model files but EXCEPT the ones we need
+*.csv
+*.pkl
+!data/training_data.csv
+!models/soc_model.pkl
+# ---------------------------------------------------
+
+# Large satellite data files (Keep these ignored)
+*.tif
+*.tiff
+*.geotiff
+*.nc
+*.zarr
+
+# OS
+.DS_Store
+Thumbs.db

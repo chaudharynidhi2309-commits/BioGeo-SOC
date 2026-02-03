@@ -1,0 +1,35 @@
+[theme]
+primaryColor = "#2ecc71"
+backgroundColor = "#ffffff"
+secondaryBackgroundColor = "#f0f2f6"
+textColor = "#262730"
+font = "sans serif"
+
+[server]
+headless = true
+port = 8501
+enableCORS = false
+```
+
+---
+
+## 🎯 **PROJECT STRUCTURE FOR DEPLOYMENT:**
+```
+BioGeo_SOC_Inference/
+├── .streamlit/
+│   └── config.toml          # ✅ Add this
+├── src/
+│   ├── __init__.py
+│   ├── config.py
+│   ├── fetch_satellite.py
+│   ├── inference.py
+│   ├── model.py
+│   └── process_ndvi.py
+├── models/
+│   └── soc_model.pkl        # ✅ Must exist!
+├── data/
+│   └── training_data.csv
+├── app.py                   # ✅ Use the fixed version above
+├── requirements.txt         # ✅ Use the clean version above
+├── README.md
+└── .gitignore
