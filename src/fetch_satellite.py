@@ -161,3 +161,4 @@ if __name__ == "__main__":
         print(f"   Point {i+1}: ({lat:.6f}, {lon:.6f})")
     
     print("\n" + "="*70)
+    
