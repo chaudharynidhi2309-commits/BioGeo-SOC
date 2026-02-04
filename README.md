@@ -1,5 +1,8 @@
 # 🌱 BioGeo-SOC: Soil Organic Carbon Inference System
 
+URL : https://biogeo-soc-final-irnjlrap5otqdzbgc8niam.streamlit.app/
+
+
 > Advanced satellite-based soil health prediction for Gujarat, India
 
 [![Python](https://img.shields.io/badge/Python-3.11-blue.svg)](https://www.python.org/)
@@ -248,6 +251,8 @@ MODEL_PARAMS = {
 
 ## 🚢 Deployment
 
+URL : https://biogeo-soc-final-irnjlrap5otqdzbgc8niam.streamlit.app/
+
 ### Streamlit Cloud
 
 1. Push to GitHub
@@ -260,17 +265,6 @@ MODEL_PARAMS = {
 
 ```bash
 streamlit run app.py --server.port 8501
-```
-
-### Docker (Optional)
-
-```dockerfile
-FROM python:3.11-slim
-WORKDIR /app
-COPY requirements.txt .
-RUN pip install -r requirements.txt
-COPY . .
-CMD ["streamlit", "run", "app.py"]
 ```
 
 ## 📈 Future Enhancements
@@ -294,10 +288,6 @@ Contributions are welcome! Please feel free to submit a Pull Request.
 4. Push to the branch (`git push origin feature/AmazingFeature`)
 5. Open a Pull Request
 
-## 📝 License
-
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
-
 ## 🙏 Acknowledgments
 
 - **Microsoft Planetary Computer** for Sentinel-2 data access
@@ -309,7 +299,7 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 For questions or feedback:
 - Create an issue on GitHub
-- Email: your.email@example.com
+- Email: chaudharynidhi2309@gmail.com
 
 ## 📚 References
 
