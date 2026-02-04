@@ -28,11 +28,14 @@ env/
 !data/training_data.csv
 !models/soc_model.pkl
 # ---------------------------------------------------
+
 # Large satellite data files (Keep these ignored)
 *.tif
 *.tiff
-# EXCEPT our validation map
-!data/gujarat_soc.tif
+*.geotiff
+*.nc
+*.zarr
+
 # OS
 .DS_Store
 Thumbs.db
