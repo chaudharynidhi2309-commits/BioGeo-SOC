@@ -3,7 +3,7 @@
 <<<<<<< HEAD
 # 🌱 BioGeo-SOC: Soil Organic Carbon Inference System
 
-URL : https://biogeo-soc-final-irnjlrap5otqdzbgc8niam.streamlit.app/
+URL : https://biogeo-soc-final-j3lsacehha2sxfbecgzftc.streamlit.app/
 
 
 > Advanced satellite-based soil health prediction for Gujarat, India
